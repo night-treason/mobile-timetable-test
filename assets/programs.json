@@ -1,0 +1,2107 @@
+[
+  {
+    "name": "Институт математики и информатики",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПРИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2,
+            "code": "БOМ38-ПРИ2110",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 3,
+            "code": "БOМ38-ПРИ2010",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 4,
+            "code": "БOМ38-ПРИ1910",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "01.03.01 Математика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "44.03.05 Педагогическое образование (Информатика и Математика)",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт биологии и химии",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт филологии",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт иностранных языков",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт развития цифрового образования",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт истории и политики",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт педагоки и психологии",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Институт физики, технологии и информационных систем",
+    "programs": [
+      {
+        "name": "09.03.03 Прикладная информатика",
+        "years": [
+          {
+            "year": 1,
+            "code": "БOМ35-ПИ1908",
+            "weekdays": [
+              {
+                "day": "1",
+                "lessons": [
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "Дискретная математика",
+                      "lecturer": "Инишева Н.В.",
+                      "room": "401"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "compound": {
+                      "name": "Математический анализ",
+                      "lecturer": "Лукьянова Е.В.",
+                      "room": "204"
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "2",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "compound": {
+                      "name": "История (история России, всеобщая история)",
+                      "lecturer": "Медведев А.А",
+                      "room": "304"
+                    }
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Иностранный язык",
+                    "lecturer": " Кашпарова В.С.",
+                    "room": "410"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Финансово-экономическая грамотность",
+                    "lecturer": "Ковалев Е.Е.",
+                    "room": "305",
+                    "compound": {
+                      "lessonNumber": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "day": "3",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Математический анализ",
+                    "lecturer": "Лукьянова Е.В.",
+                    "room": "204",
+                    "compound": {
+                      "name": "Алгебра и геометрия",
+                      "lecturer": "Шилин И.А.",
+                      "room": "405"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Савенок А.С.",
+                    "room": "207"
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Дискретная математика",
+                    "lecturer": "Инишева Н.В.",
+                    "room": "306"
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "ИКТ и медиаинформационная грамотность",
+                    "lecturer": "Фатеева И.А.",
+                    "room": "207",
+                    "compound": {}
+                  }
+                ]
+              },
+              {
+                "day": "5",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Программирование",
+                    "lecturer": "Федотенко М.А - 1гр, Буданов Н.А - 2гр",
+                    "room": "303, 411",
+                    "compound": {
+                      "name": "Программирование",
+                      "lecturer": "Федотенко М.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Архитектура ЭВМ",
+                    "lecturer": "Муратова Д.А - 1гр,  Овчарова П.С. - 2гр",
+                    "room": "305, 303",
+                    "compound": {
+                      "name": "Архитектура ЭВМ",
+                      "lecturer": "Муратова Д.А.",
+                      "room": "207"
+                    }
+                  },
+                  {
+                    "lessonNumber": 4,
+                    "name": "Элективные курсы по физической культуре и спорту"
+                  }
+                ]
+              },
+              {
+                "day": "6",
+                "lessons": [
+                  {
+                    "lessonNumber": 1,
+                    "name": "Алгебра и геометри",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 2,
+                    "name": "Математический анализ",
+                    "lecturer": "Матвеев Е.М.",
+                    "room": "401",
+                    "compound": {}
+                  },
+                  {
+                    "lessonNumber": 3,
+                    "name": "Алгебра и геометрия",
+                    "lecturer": "Шилин И.А.",
+                    "room": "405",
+                    "compound": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
