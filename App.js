@@ -13,9 +13,10 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import { useSelector } from "react-redux";
-import jsondata from "./assets/programs.json";
 import programs from "./assets/programs.json";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistStore } from "redux-persist";
 
 const addCompound = (input) => {
   input.weekdays.forEach((dayObj) => {
@@ -99,7 +100,7 @@ function HomeScreen({ navigation, route }) {
 }
 
 export const SearchContext = React.createContext();
-
+let persistor = persistStore(store);
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -107,98 +108,99 @@ export default function App() {
   return (
     <SafeAreaProvider style={{ backgroundColor: "#242428" }}>
       <Provider store={store}>
-        <SearchContext.Provider value={searchValue}>
-          <NavigationContainer>
-            <StatusBar barStyle="light-content" />
-            <Stack.Navigator>
-              <Stack.Screen
-                name="HomeScreen"
-                component={HomeScreen}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 1, 1]}
-                      route={["Settings", 0, 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-
-              <Stack.Screen
-                name="Settings"
-                component={Settings}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 0, 0]}
-                      route={["HomeScreen", 0, 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-              <Stack.Screen
-                name="Timetables"
-                component={Timetables}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 1, 1]}
-                      route={["Settings", "HomeScreen", 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-              <Stack.Screen
-                name="TimeUni"
-                component={TimeUni}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 1, 1]}
-                      route={["Settings", "HomeScreen", 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-              <Stack.Screen
-                name="TimetableCreator"
-                component={TimetableCreator}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 1, 1]}
-                      route={["Settings", "HomeScreen", 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-              <Stack.Screen
-                name="TimeCustom"
-                component={TimeCustom}
-                options={{
-                  header: () => (
-                    <HeadPanelHome
-                      visible={[1, 1, 1]}
-                      route={["Settings", "HomeScreen", 0]}
-                      searchValue={searchValue}
-                      setSearchValue={setSearchValue}
-                    />
-                  ),
-                }}
-              />
-            </Stack.Navigator>
-          </NavigationContainer>
-        </SearchContext.Provider>
+        <PersistGate loading={null} persistor={persistor}>
+          <SearchContext.Provider value={searchValue}>
+            <NavigationContainer>
+              <StatusBar />
+              <Stack.Navigator>
+                <Stack.Screen
+                  name="HomeScreen"
+                  component={HomeScreen}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 1, 1]}
+                        route={["Settings", 0, 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+                <Stack.Screen
+                  name="Settings"
+                  component={Settings}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 0, 0]}
+                        route={["HomeScreen", 0, 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+                <Stack.Screen
+                  name="Timetables"
+                  component={Timetables}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 1, 1]}
+                        route={["Settings", "HomeScreen", 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+                <Stack.Screen
+                  name="TimeUni"
+                  component={TimeUni}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 1, 1]}
+                        route={["Settings", "HomeScreen", 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+                <Stack.Screen
+                  name="TimetableCreator"
+                  component={TimetableCreator}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 1, 1]}
+                        route={["Settings", "HomeScreen", 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+                <Stack.Screen
+                  name="TimeCustom"
+                  component={TimeCustom}
+                  options={{
+                    header: () => (
+                      <HeadPanelHome
+                        visible={[1, 1, 1]}
+                        route={["Settings", "HomeScreen", 0]}
+                        searchValue={searchValue}
+                        setSearchValue={setSearchValue}
+                      />
+                    ),
+                  }}
+                />
+              </Stack.Navigator>
+            </NavigationContainer>
+          </SearchContext.Provider>
+        </PersistGate>
       </Provider>
     </SafeAreaProvider>
   );

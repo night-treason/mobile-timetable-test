@@ -167,10 +167,11 @@ export const TimeCustom = ({ navigation, route }) => {
         {data.map((item, index) => (
           <Pressable
             key={index}
-            style={[
+            style={({ pressed }) => [
               styles.content,
               index == 0 ? { borderTopWidth: 0 } : null,
               index + 1 == data.length ? styles.shadow : null,
+              pressed ? { backgroundColor: "rgba(0, 0, 0, 0.2)" } : null,
             ]}
             onLongPress={() => handleLongPress(item.name)}
             onPress={() => handlePress(item.name)}
@@ -195,7 +196,10 @@ export const TimeCustom = ({ navigation, route }) => {
                 name: "TimetableCreator",
               })
             }
-            style={styles.addButton}
+            style={({ pressed }) => [
+              styles.addButton,
+              pressed ? { backgroundColor: "rgba(0, 0, 0, 0.2)" } : null,
+            ]}
           >
             <AntDesign name="plus" size={25} color="rgb(210, 208, 208)" />
           </Pressable>
@@ -224,7 +228,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: 50,
     height: 50,
-    borderRadius: 30,
+    borderRadius: 60,
     backgroundColor: "rgba(49, 49, 49, 0.3)",
     borderColor: "rgba(58, 57, 57, 0.3)",
     borderWidth: 1,
@@ -235,7 +239,6 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.6,
     shadowRadius: 2,
-    elevation: 1,
   },
   shadow: {
     shadowColor: "#000",

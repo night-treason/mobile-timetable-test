@@ -119,8 +119,7 @@ export const HeadPanelHome = ({
         paddingLeft: insets.left + 20,
         paddingRight: insets.right + 20,
         height: 80,
-        backgroundColor:
-          theme == "dark" ? "rgba(24, 26, 27, 1)" : "rgba(185, 185, 185, 0.24)",
+        backgroundColor: theme == "dark" ? "rgba(24, 26, 27, 1)" : "#ffffff",
       }}
     >
       {searchBarActive && <View style={[{ width: 180 }, { height: 40 }]} />}
@@ -130,7 +129,7 @@ export const HeadPanelHome = ({
             position: "absolute",
             top: 0,
             left: 0,
-            right: 0,
+            right: 30,
             bottom: 0,
             justifyContent: "center",
             alignItems: "center",

@@ -28,6 +28,7 @@
     "react-native-screens": "~3.20.0",
     "react-native-web": "~0.18.11",
     "react-redux": "^8.0.7",
+    "redux-persist": "^6.0.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

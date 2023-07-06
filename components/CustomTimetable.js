@@ -6,10 +6,7 @@ import {
   Pressable,
   TextInput,
   StyleSheet,
-  Switch,
   ToastAndroid,
-  Modal,
-  Alert,
 } from "react-native";
 import Accordion from "react-native-collapsible/Accordion";
 import SquareSwitch from "./custom/CustomSwitch";
@@ -97,7 +94,6 @@ export const TimetableCreator = ({ navigation, route }) => {
   const [refreshKey, setRefreshKey] = React.useState(0);
 
   const propTimetable = route.params?.timetable;
-  console.log(propTimetable);
 
   const handleLongPress = (index) => {
     setSelectedTimetableIndex(index);
@@ -214,7 +210,7 @@ export const TimetableCreator = ({ navigation, route }) => {
                         fontSize: 16,
                       }}
                     >
-                      Аудитория:
+                      Аудитория:{" "}
                       <Text style={{ color: "rgb(206, 206, 206)" }}>
                         {timetable.room}
                       </Text>
@@ -418,7 +414,11 @@ export const TimetableCreator = ({ navigation, route }) => {
         />
         {editingTimetable == null && (
           <Pressable
-            style={[styles.button, { marginTop: 10 }]}
+            style={({ pressed }) => [
+              styles.button,
+              { marginTop: 10 },
+              pressed ? { backgroundColor: "rgba(0, 0, 0, 0.2)" } : null,
+            ]}
             onPress={() => addTimetable(weekday)}
           >
             <Text style={styles.buttonText}>Добавить</Text>
@@ -426,7 +426,11 @@ export const TimetableCreator = ({ navigation, route }) => {
         )}
         {editingTimetable !== null && (
           <Pressable
-            style={[styles.button, { marginTop: 10 }]}
+            style={({ pressed }) => [
+              styles.button,
+              { marginTop: 10 },
+              pressed ? { backgroundColor: "rgba(0, 0, 0, 0.2)" } : null,
+            ]}
             onPress={() => saveTimetable(weekday)}
           >
             <Text style={styles.buttonText}>Сохранить</Text>
@@ -480,9 +484,10 @@ export const TimetableCreator = ({ navigation, route }) => {
           </Pressable>
         ) : (
           <Pressable
-            style={[
+            style={({ pressed }) => [
               styles.button,
               { backgroundColor: "rgba(24, 26, 27, 0.4)" },
+              pressed ? { backgroundColor: "rgba(0, 0, 0, 0.2)" } : null,
             ]}
             onPress={done}
           >

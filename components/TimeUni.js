@@ -66,7 +66,6 @@ export const TimeUni = () => {
   }, [searchValue]);
 
   function onClickTimetableHandler(years, uniName, programName) {
-    console.log(uniName, programName, years);
     setChosenProgram(programName);
     setChosenUni(uniName);
     setChosenTimetable(years);
